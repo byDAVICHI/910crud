@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body style="background-color:rgb(185, 255, 255)">
+<body style="background-color:rgb(255, 187, 0)">
     @include('fragments.navbar')
 
     @if (session('status'))
