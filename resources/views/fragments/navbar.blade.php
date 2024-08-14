@@ -11,14 +11,14 @@
         padding-inline: 20px;
     }
     nav p a{
-        color: rgb(0, 220, 220);
+        color: rgb(220, 125, 0);
         text-decoration: none;
         padding-block: 10px;
         padding-inline: 10px;
         margin-inline: -4px;
     }
     nav p a:hover{
-        background: rgba(0, 250, 250, 0.650);
+        background: rgba(250, 204, 0, 0.65);
         color: rgb(38, 38, 38);
         border-radius: 10px;
         padding-block: 20px;

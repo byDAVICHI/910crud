@@ -1,7 +1,7 @@
 @extends('layout.main_template')
 
 @section('content')
-    
+
 <style>
     *{box-sizing: border-box}
     form{
@@ -38,7 +38,7 @@
 </style>
 
     <h2>Registrar producto</h2>
-    
+
     @if ($errors->any())
         @foreach ($errors->all() as $e)
             <div class="error">
@@ -46,7 +46,7 @@
             </div>
         @endforeach
     @endif
-    
+
     <form action="{{route('products.store')}}" method="POST">
         @csrf
         <label for="">Producto</label>
@@ -68,6 +68,5 @@
         </select>
 
         <button type="submit">Registrar</button>
-
     </form>
 @endsection
